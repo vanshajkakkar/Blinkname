@@ -1,0 +1,86 @@
+int led1 = D6;
+int led2 = D7;
+
+
+void setup() {
+    pinMode(led1, OUTPUT);
+    pinMode(led2, OUTPUT);
+}
+
+void letterV() {
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+}
+void letterA() {
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+}
+void letterN() {
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+}
+void letterS() {
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, HIGH);
+    delay(500);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
+    delay(1000);
+}
+   
+
+void loop() {
+    letterV();
+    letterA();
+    letterN();
+    letterS();
+ 
+}
